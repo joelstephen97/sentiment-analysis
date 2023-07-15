@@ -42,8 +42,8 @@ Before running the application, make sure you have the following:
 To start the Flask server and use the Sentiment Analysis API, follow these steps:
 
 Run the following command:
-    ```shell
-    python app.py
+   ```shell
+   python app.py
 
 The Flask server will start running on http://localhost:3000/.
 
