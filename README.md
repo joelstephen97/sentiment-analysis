@@ -53,9 +53,13 @@ Run the following command:
 
 The Flask server will start running on http://localhost:3000/.
 
-Use an API testing tool like Postman or send HTTP requests to the server to perform sentiment analysis on news articles. The API supports the following parameters:
-    country (optional): Two-letter country code (e.g., us, gb, in). If not specified, defaults to us.
-    category (optional): News category (e.g., business, sports, technology).
+Use an API testing tool like Postman or send HTTP requests to the server to perform sentiment analysis on news articles. 
+The API supports the following parameters:
+    
+country (optional): The 2-letter ISO 3166-1 code of the country you want to get headlines for. Possible options: ae ar at au be bg br ca ch cn  co cu cz de eg fr gb gr hk hu id ie il in it jp kr lt lv ma mx my ng nl no nz ph pl pt ro rs ru sa se sg si sk th tr tw ua us ve za 
+If not specified, defaults to us.
+
+category (optional): News category Possible options: business entertainment general health science sports technology.
 
 Example usage:
 
