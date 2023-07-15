@@ -37,29 +37,25 @@ Before running the application, make sure you have the following:
     NEWS_API_KEY=your_news_api_key
     SENTIMENT_API_KEY=your_sentiment_api_key
 
-    
-
 ## Usage
 
 To start the Flask server and use the Sentiment Analysis API, follow these steps:
 
-    Run the following command:
+Run the following command:
+     ```shell
+        python app.py
 
-    shell
+The Flask server will start running on http://localhost:3000/.
 
-    python app.py
+Use an API testing tool like Postman or send HTTP requests to the server to perform sentiment analysis on news articles. The API supports the following parameters:
+    country (optional): Two-letter country code (e.g., us, gb, in). If not specified, defaults to us.
+    category (optional): News category (e.g., business, sports, technology).
 
-    The Flask server will start running on http://localhost:3000/.
+Example usage:
+    http://localhost:3000/?country=us - Perform sentiment analysis on top headlines from the United States.
+    http://localhost:3000/?country=gb&category=business - Perform sentiment analysis on top business news from the United Kingdom.
 
-    Use an API testing tool like Postman or send HTTP requests to the server to perform sentiment analysis on news articles. The API supports the following parameters:
-        country (optional): Two-letter country code (e.g., us, gb, in). If not specified, defaults to us.
-        category (optional): News category (e.g., business, sports, technology).
-
-    Example usage:
-        http://localhost:3000/?country=us - Perform sentiment analysis on top headlines from the United States.
-        http://localhost:3000/?country=gb&category=business - Perform sentiment analysis on top business news from the United Kingdom.
-
-    The API will return the average sentiment score for the retrieved articles.
+The API will return the average sentiment score for the retrieved articles.
 
 ## License
 
