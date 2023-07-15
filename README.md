@@ -72,3 +72,6 @@ Please discuss with me before this code is used commercially or for business pur
 
 Note: Remember to keep your API keys confidential and do not share them publicly.
 
+## Author(s)
+Joel Stephen
+
