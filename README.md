@@ -19,7 +19,7 @@ Before running the application, make sure you have the following:
 
 2. Navigate to the project directory.
    ```shell
-   cd your_repository
+   cd sentiment-analysis
    ```
 
 3. Install the required dependencies.
