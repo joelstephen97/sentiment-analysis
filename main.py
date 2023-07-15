@@ -38,7 +38,7 @@ def sentiment_analysis():
         for article in articles:
             text = f"{article['title']}. {article['description']}"
             clean_text = re.sub(r'\W+', ' ', text)  # Removes special characters as newsarticles sometimes might include some unwanted characters with no bearing
-            print(clean_text) # for testing news articles outputs
+            #print(clean_text) # for testing news articles outputs
 
             sentiment_response = requests.post(sentimentAPIUrl, data={
                 'text': clean_text,
