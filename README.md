@@ -1,6 +1,10 @@
 # Sentiment Analysis API
 
-This repository contains code for a Flask-based Sentiment Analysis API. The API fetches news articles using the [News API](https://newsapi.org/) and performs sentiment analysis on the article titles and descriptions using the [ParallelDots Sentiment Analysis API](https://apis.paralleldots.com/v4/sentiment).
+This repository contains code for a Flask-based Sentiment Analysis API. 
+The API fetches news articles using the [News API](https://newsapi.org/) and performs sentiment analysis on the article titles and descriptions using the [ParallelDots Sentiment Analysis API](https://apis.paralleldots.com/v4/sentiment).
+Then the sentiment is calculated from 10 to -10, 10 being fully positive or -10 being fully negative.
+The aim is to get a sentiment based on the top news articles of the day, ideally giving an idea about market conditions and other variables remotely or directly depending on the larger news cycle.
+This is a part of my large project to improve my coding and also build on some financial knowledge.
 
 ## Prerequisites
 
