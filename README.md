@@ -83,3 +83,5 @@ Note: Remember to keep your API keys confidential and do not share them publicly
 ## Author(s)
 Joel Stephen
 
+## Image Credits
+<a href="https://www.freepik.com/free-vector/emoji-satisfaction-meter-small_44156211.htm#query=sentiment%20analysis&position=0&from_view=keyword&track=ais">Image by juicy_fish</a> on Freepik
