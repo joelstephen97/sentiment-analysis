@@ -14,21 +14,25 @@ Before running the application, make sure you have the following:
 1. Clone this repository to your local machine.
 
    ```shell
-   git clone https://github.com/your_username/your_repository.git
+   git clone https://github.com/joelstephen97/sentiment-analysis.git
+   ```
 
 2. Navigate to the project directory.
    ```shell
    cd your_repository
+   ```
 
 3. Install the required dependencies.
 
     ```shell
     pip install -r requirements.txt
+    ```
 
 4. Create a .env file in the project root directory and add your API keys.
 
     ```shell
     touch .env
+    ```
 
 5. Open the .env file in a text editor and add the following lines and replace your_news_api_key and your_sentiment_api_key with your actual API keys.
 
@@ -36,6 +40,7 @@ Before running the application, make sure you have the following:
 
     NEWS_API_KEY=your_news_api_key
     SENTIMENT_API_KEY=your_sentiment_api_key
+    ```
 
 ## Usage
 
@@ -44,6 +49,7 @@ To start the Flask server and use the Sentiment Analysis API, follow these steps
 Run the following command:
    ```shell
    python app.py
+   ```
 
 The Flask server will start running on http://localhost:3000/.
 
