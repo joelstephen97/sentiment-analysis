@@ -58,8 +58,10 @@ Use an API testing tool like Postman or send HTTP requests to the server to perf
     category (optional): News category (e.g., business, sports, technology).
 
 Example usage:
-    http://localhost:3000/?country=us - Perform sentiment analysis on top headlines from the United States.
-    http://localhost:3000/?country=gb&category=business - Perform sentiment analysis on top business news from the United Kingdom.
+
+http://localhost:3000/?country=us - Perform sentiment analysis on top headlines from the United States.
+
+http://localhost:3000/?country=gb&category=business - Perform sentiment analysis on top business news from the United Kingdom.
 
 The API will return the average sentiment score for the retrieved articles.
 
