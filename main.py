@@ -15,6 +15,8 @@ cache = Cache(app, config={'CACHE_TYPE': 'simple'})
 CACHE_EXPIRATION_TIME = 7200  # Cache expiration time in seconds
 
 newsAPIKey = os.getenv('NEWS_API_KEY')
+
+
 sentimentAPIKey = os.getenv('SENTIMENT_API_KEY')
 
 sentimentAPIUrl = 'https://apis.paralleldots.com/v4/sentiment'  # get key from https://dashboard.komprehend.io/login
